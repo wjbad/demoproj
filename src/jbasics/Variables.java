@@ -160,9 +160,179 @@ public class Variables {
 		//String zz = xx + yy;
 		//System.out.println(zz);
 		
-		String s1 = "AutomationProgramS12022";
-		System.out.println(s1.substring(2,4));
-		System.out.println(s1.substring(5,7));
+		//String s1 = "AutomationProgramS12022";
+		//String s2 = "2022-02-08";
+		//System.out.println(s1.substring(2,4));
+		//System.out.println(s1.substring(5,7));
+		//System.out.println(s1.substring(0,4));
+		//System.out.println(s1.substring(10));
+		
+		//int randomNum = (int)(Math.random()*101);
+		//System.out.println(randomNum);
+		
+		//Boolean Values
+		//boolean isJavaFun = true;
+		//boolean isFishTasty = false;
+		//System.out.println(isJavaFun);
+		//System.out.println(isFishTasty);
+		
+		
+		//int x = 10;
+		//int y = 9;
+		//System.out.println(x > y);
+		
+		//System.out.println(8 > 10);
+		
+		//System.out.println(x == 10);
+		
+		// use if to specify a block of code to be executed, if a specific condition is true
+		// use else to specify a blck of code to be executed, if the same condition is false
+		// use else if to specify a new condition to test, if the first condition is false
+		// use switch to specify many alternative blocks of code to be executed 
+		
+		//if (20 > 18) {
+			//System.out.println("20 is greater than 18");
+		//}
+		
+		
+		//int x = 20;
+		//int y = 18;
+		//if (x > y) {
+		//	System.out.println("20 is greater than 18");
+		//}
+		
+		//int time1 = 20;
+		//if (time1 < 18) {
+			//System.out.println("Good day");
+		//} else {	
+		// System.out.println("Good evening");
+		//}
+		
+		
+		//int time1 = 22;
+		//if (time1 < 10) {
+			//System.out.println("Good Morning");
+		//} else if (time1 < 20) {	
+		 //System.out.println("Good day");
+		//} else { 
+			//System.out.println("Good Evening");
+		//}
+		
+//		int time1 =25;
+//		if (time1 < 13) {
+//			System.out.println("You are a child");
+//		} else if (time1 >= 13 && time1 < 21) {	
+//		 System.out.println("You are a teen");
+//		} else { 
+//			System.out.println("You are an adult");
+//		}
+		
+		
+//		int time1 = 20;
+//		String result1 = (time1 < 18) ? "good day." : "Good evening";
+//		System.out.println(result1);
+		
+//		int day1 = 6;
+//		switch (day1) {
+//		case 1:
+//			System.out.println("Monday");
+//			break;
+//		case 2:
+//			System.out.println("Tuesday");
+//			break;
+//		case 3:
+//			System.out.println("Wednesday");
+//			break;
+//		case 4:
+//			System.out.println("Thursday");
+//			break;
+//		case 5:
+//			System.out.println("Friday");
+//			break;
+//		case 6:
+//			System.out.println("Saterday");
+//			break;
+//		case 7:
+//			System.out.println("Sunday");
+//			break;
+//		default:
+//			System.out.println("Error:There is no such day of the week");
+	
+		// using a switch statement
+		// day is 6 then print Saturday
+		// day 7 thing print it's Sunday
+		// otherwise print "Looking forward to the Weekend"
+		
+//			int day1 = 2;
+//			switch (day1) {
+//			case 6:
+//				System.out.println("It's Saterday");
+//				break;
+//			case 7:
+//				System.out.println("It's Sunday");
+//				break;
+//			default:
+//				System.out.println("Looking Forward To The Weekend");
+			
+		//while loops
+//		int i = 0;
+//		while (i < 5) {
+//			System.out.println(i);
+//			i++;
+//	}
+		
+		//do/while
+//		int i = 0;
+//			do {
+//				System.out.println(i);
+//				i++;
+//			}
+//		
+//		while (i < 5);
+		
+		//for loop
+		// template
+		//for (statement 1; statement 2; statement 3) {
+		// 		code block
+		//}
+		
+		// statement 1 is executed on time before the execution of the code block
+		// statement 2 defines the condition for the executing the code block
+		// statement 3 is executed every time after the code block has been executed
+		
+//		for (int i =0; i < 5; i++) {
+//			System.out.println(i);
+//		}
+//		
+		
+//		for (int i =0; i<=10; i=i+2) {
+//			System.out.println(i);
+//		}
+//	
+		
+//		String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+//		for (String i : cars) {
+//			System.out.println(i);
+//		}
+		
+//		String[] fruit = {"Banana", "Grape", "Watermelon", "Kiwi", "Orange"};
+//		for (String i : fruit) {
+//			System.out.println("The fruit is" + " " + (i));
+//			
+//		}	
+		
+		String[] name = {"Dee", "Peet", "Chris", "Lucy", "Arno"};
+		for (String i : name) {
+		System.out.println("The is my friend" + " " + (i));
+		
+		}
+		
+		String hello = "Hello";
+		String name1 = "Wessel";
+		System.out.println(hello);
+		System.out.println(name1);
+		
+		
 		
 	}
 
